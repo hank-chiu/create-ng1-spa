@@ -1,0 +1,97 @@
+*.pyc
+*.pyo
+*.mo
+*.DS_Store
+*.swp
+.idea/*
+.blob/*
+.sass-cache
+.vagrant/
+.venv/
+.env
+.env.bkp/
+.load-crawler-cache/
+_db/
+backups/
+fms/env
+storage/
+.fms-version
+.python-version
+maintenance.lock
+.profiles
+coverage
+
+# we'll add docker configuration in "docker" folder, leave subfolder "data" as container's data volume
+docker/data/
+.vscode/
+
+# npm installed dir
+node_modules/*
+# npm cache
+.npm/*
+
+# ignore automatic generate min.js
+templates/minjs/*
+
+# ignore automatic generate min.css, scssc
+*.css.map
+form_components.css
+form_wk.css
+form_wk.scssc
+custom.css
+tracking.css
+**/tracking_customize/*.css
+plugins_custom.css
+responsive.css
+layout.css
+
+# crawler
+blob.keyfile
+lib/crawler/dist/*
+lib/crawler/build/*
+unfounded-port.csv
+unfounded-airport.csv
+
+# bin
+pdfsizeopt_libexec_linux-v3.tar.gz
+pdfsizeopt_libexec_darwin-v1.tar.gz
+bin/**/pdfsizeopt_libexec/*
+
+# coverage report
+.coverage
+.coverage.xml
+coverage.xml
+htmlcov/*
+
+# test error screenshot
+test/.screenshot/*.png
+
+# for designer testing only
+
+# ansible
+*.retry
+
+# terraform
+.terraform/
+terraform.tfstate.d/
+terraform.tfstate
+terraform.tfstate.backup
+!terraform/*/storage/
+kubeconfig_*
+
+
+/static/metronic/.sass-cache/*
+/static/metronic/plugins/jquery.qtip/*
+/static/freight/css/*.min.css
+/static/metronic/css/*.min.css
+/static/metronic/css/languages/*.css
+/static/dist
+/static/dist-wms
+/static/metronic/freight
+/static/metronic-bootstrap-v8/css
+static/warehouse/node_modules
+wms-app/src/assets/node_modules
+
+# Ignore hardcore internal used volumes or files.
+.hardcore
+env/
