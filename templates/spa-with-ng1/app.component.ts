@@ -27,6 +27,7 @@ export class AppComponent implements OnInit {
 
   private async fetchAppContext() {
     // TODO: implement context API
+    // TODO: attach query params if BE use it.
     return await this.http.get('/api/xxx/context/').toPromise();
   }
 }
