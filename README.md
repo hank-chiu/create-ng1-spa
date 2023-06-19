@@ -1,5 +1,7 @@
 # create-ng1-spa
 
+test
+
 > A command line tool to scaffold [fms](https://github.com/hardcoretech/fms) SPA page with ng1
 
 ## Quick start
